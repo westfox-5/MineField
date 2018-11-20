@@ -1,7 +1,7 @@
 # MineField
 Project for Programming course, a.a. 2016/2017.
 
-# Introduction
+## Introduction
 Command-line version of the classic MineField game.
 Play alone and try to win or start a bot and let him win for you!
 
@@ -11,7 +11,7 @@ Play alone and try to win or start a bot and let him win for you!
 ---
 
 
-# Install the game
+## Install the game
 
 First download the game using this command:
     
@@ -31,11 +31,11 @@ Do these last two things:
 
 * Set your terminal fullscreen or maximize it.
 
-## Now just play and enjoy!
+### Now just play and enjoy!
 
         ./dist/campo
 
-#  How to play
+## How to play
 
 In the main menu you can select one of 3 options:
 
@@ -48,7 +48,7 @@ After that you will asked the maximum number of moves you can go back when a bom
 
 Then choose if you want the AI (a simple random bot xD) play or not.
 
-### List of commands
+### Commands list
  
 * Directional arrows for move
 * `1` to uncover the selected cell
@@ -56,7 +56,7 @@ Then choose if you want the AI (a simple random bot xD) play or not.
 * `e` to exit game
 ---
 
-# Screens
+## Screens
 
 
 **Main menu of the game**
