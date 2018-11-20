@@ -43,7 +43,6 @@ In the main menu you can select one of 3 options:
 * CARICA CAMPO SALVATO: loads the last field played
 * ALTRE OPZIONI: there's the choice for Hard, Medium, Easy difficulty
 
-
 After that you will asked the maximum number of moves you can go back when a bomb is hit. After reached this number, if you hit a bomb you lose.
 
 Then choose if you want the AI (a simple random bot xD) play or not.
