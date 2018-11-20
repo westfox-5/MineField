@@ -46,7 +46,7 @@ int trovato(int x, int y, int*mine_x, int*mine_y, int idx, int dim)
 
 int scrivi_file(FILE *pf, int r_max, int c_max, int n_bombe)
 {
-	int i, j, flag;
+	int i;
 	int* mine_x, *mine_y;
 
 	/*crea due array per coordinate x e y*/
@@ -85,7 +85,7 @@ int scrivi_file(FILE *pf, int r_max, int c_max, int n_bombe)
 
 int crea_mat(struct cella **mat, int r_max, int c_max)
 {
-	int i, j;
+	int i;
 
 	for (i = 0; i < r_max; i++) {
 		mat[i] = (struct cella*)malloc(c_max * sizeof(struct cella));

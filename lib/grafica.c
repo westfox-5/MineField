@@ -399,7 +399,6 @@ int gioca_campo(WINDOW *local_win, int col_campo, int lin_campo, int r_max, int 
 
 void stampa_campo(WINDOW * win, int col_campo, int lin_campo, int scelta_i, int scelta_j, int r_max, int c_max, struct cella** mat)
 {
-	char str[] = "MENU";
 	int i, j;
 	int lin, col1, col; /*linea e col dove inizia la stampa*/
 
@@ -600,7 +599,7 @@ int stampa_annulla(WINDOW * win, int col_annulla, int lin_annulla, int mosse_da_
 
 void stampa_scelte_annulla(WINDOW * win, int highlight, int col_max, int lin_max, char **annulla_str)
 {
-	int i, n, col, lin;
+	int i, col, lin;
 
 	lin = lin_max - 4;
 
@@ -670,14 +669,15 @@ int stampa_chiedi_ai(WINDOW * win, int col_ai, int lin_ai)
 		}
 	} while (c != 21 && !fine);
 	wrefresh(win);
+
+	return -1;
 }
 
 
 void stampa_scelte_ai(WINDOW * win, int highlight, int col_max, int lin_max, char **scelte)
 {
 
-	int i, n, col, lin;
-
+	int i, col, lin;
 
 	lin = lin_max - 4;
 

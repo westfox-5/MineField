@@ -1,4 +1,4 @@
-#include "librerie/libreria.h"
+#include "lib/libreria.h"
 
 int main() {
 

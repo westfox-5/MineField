@@ -222,11 +222,10 @@ int A_I(WINDOW* local_win, struct cella** matrice, int r_max, int c_max, int col
 {
 
 	int r, c, i , j;
-	int vinto, primo;
+	int vinto;
 	int fine = 0;
 	int ris, ann;
-	primo = 1;
-
+	
 	do {
 
 		stampa_comandi_stdr(r_max, c_max, n_bombe, *m_annulla);
